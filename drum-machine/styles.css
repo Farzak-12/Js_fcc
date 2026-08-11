@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#0000ff27;
+    padding:10%;
+}
+#drumachine{
+    width: 70%;
+}
+#pad-bank{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 0fr);
+    gap:5%;
+    justify-content: center;
+    align-items: center;
+}
+.drumpad{
+    color:white;
+    background-color: grey;
+    width: 70px;
+    height: 70px;
+    border-radius: 15%;
+    border:none;
+    display: block;
+}
+#display{
+    background-color: grey;
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;;
+}
+.drumpad:hover{
+    background-color: rgb(99, 99, 99);
+    cursor: pointer;
+}
